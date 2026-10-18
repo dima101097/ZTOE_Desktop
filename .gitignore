@@ -1,0 +1,30 @@
+# скрипти запуску й збирання
+*.bat
+*.cmd
+*.spec
+
+# результати збирання
+build/
+dist/
+release/
+*.exe
+*.new
+
+# особисті дані й робочі файли
+config.json
+state.json
+address_cache.db
+*.log
+*.log.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# редактори й система
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
